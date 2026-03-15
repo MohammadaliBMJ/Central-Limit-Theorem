@@ -27,7 +27,11 @@ This repository is an implementation of the Central Limit Theorem. The CLT state
 
 ## Standardization
 Shift the sample mean so the mean is $0$ and the std is $1$.
-$$Z = \frac{\bar{X} - \mu}{\frac{\sigma}{\sqrt{n}}}$$
+
+$$
+Z = \frac{\bar{X} - \mu}{\frac{\sigma}{\sqrt{n}}}
+$$
+
 - $\bar{X}$ : sample mean
 - $\mu$ : true mean
 - $\sigma$ : true std
